@@ -143,12 +143,9 @@ JSExportAs(testArgumentTypes,
 
 [iOS与JS交互实战篇（Objc版）](http://mp.weixin.qq.com/s?__biz=MzIzMzA4NjA5Mw==&mid=214063688&idx=1&sn=903258ec2d3ae431b4d9ee55cb59ed89#rd)
 
-
 更多关于JavaScriptCore：
 
-
 [iOS7新JavaScriptCore框架入门介绍](http://www.cnblogs.com/ider/p/introduction-to-ios7-javascriptcore-framework.html)
-
 
 [JavaScriptCore框架在iOS7中的对象交互和管理](http://blog.iderzheng.com/ios7-objects-management-in-javascriptcore-framework/)
 
