@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>interact with ios</title>
+    <meta charset="UTF-8"/>
+</head>
+<body>
+<script>
+    function callbackForiOS(something){
+        var target = document.getElementById('result');
+        var content = target.innerHTML
+        content = "iOS回应: " + something
+        target.innerHTML = content;
+    }
+    function iOSShowMessage(msg) {
+        var target = document.getElementById('input');
+        var content = target.innerHTML
+        content = "给iOS发送消息:'Are u iOS'"
+        target.innerHTML = content;
+        window.webkit.messageHandlers.iOSShowMessage.postMessage("Are u iOS?")
+    }
+</script>
+
+<br/>
+<br/>
+
+<div>
+    <input type="button" value="调用iOS方法" onclick="iOSShowMessage('are you Objective-C?')">
+    
+</div>
+
+<br/>
+<br/>
+
+<div>
+    <h4>回调结果:</h4>
+    <span id="input"></span>
+    <br/>
+    <span id="result"></span>
+</div>
+
+</body>
+</html>
