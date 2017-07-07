@@ -1,6 +1,6 @@
 
 # 1.UIWebview与JavaScriptCore
-###JavaScriptCore中常用的类型：
+### JavaScriptCore中常用的类型：
  - **JSContext** ：JSContext代表JS的执行环境，它的对象通过`-evaluateScipt:` 方法就可以执行JS代码。可以通过
 ```
 JSContext *jsContext = [webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
@@ -9,7 +9,7 @@ JSContext *jsContext = [webView valueForKeyPath:@"documentView.webView.mainFrame
  - **JSValue** ：JSValue中封装了JS与ObjC中对应的类型，实现相互间的转换，以及调用JS的API等。
  - **JSExport** ：JSExport是一个协议，一个协议A，只有当协议A继承自JSExport协议时，A中的方法才能被JS调用。
 
-###Objective-C与JS交互
+### Objective-C与JS交互
 通过JSContext，有两种方式与JS交互：
 
  1. 通过`-evaluateScipt:` 方法直接调用JS代码
