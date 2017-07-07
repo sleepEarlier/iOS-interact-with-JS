@@ -136,7 +136,7 @@ JSExportAs(testArgumentTypes,
 效果：
 
 
-![](http://upload-images.jianshu.io/upload_images/328953-eb7e722e7025947e?imageMogr2/auto-orient/strip)
+![](https://github.com/sleepEarlier/iOS-interact-with-JS/raw/master/images/UIWebview.gif)
 
 参考文章：
 
@@ -256,6 +256,9 @@ window.webkit.messageHandlers.iOSShowMessage.postMessage("Are u iOS?")
 }
 ```
 
+效果图:
+
+![](https://github.com/sleepEarlier/iOS-interact-with-JS/raw/master/images/wkwebview.gif)
 
 示例的HTML代码：
 ```
